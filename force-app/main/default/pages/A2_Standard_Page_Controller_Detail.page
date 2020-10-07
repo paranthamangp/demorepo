@@ -1,0 +1,8 @@
+<apex:page standardController="Account">
+  <!-- Display all details -->
+  <apex:pageBlock title="All account details">
+    
+           <apex:detail />
+
+  </apex:pageBlock>
+</apex:page>

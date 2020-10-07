@@ -1,0 +1,9 @@
+<aura:component >
+	
+			<h1> This is  line one </h1>
+    			<div class="red"> This is red</div>
+    			<div class="green"> This is green</div>
+    			<div class="blue"> This is blue</div>
+	
+
+</aura:component>

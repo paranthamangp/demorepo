@@ -1,0 +1,13 @@
+<aura:component>
+
+	<aura:attribute name="avalue" type="Integer" />
+	<aura:attribute name="bvalue" type="Integer" />
+	<aura:attribute name="sumresult" type="Integer" />
+	<aura:handler name="init" value="{!this}" action="{!c.SumFunction}" />
+
+			     		 <br/><br/>
+	A value: {!v.avalue} <br/><br/>
+	B value: {!v.bvalue} <br/><br/>
+	Sum of A and B is : {!v.sumresult}<br/><br/>
+
+</aura:component>

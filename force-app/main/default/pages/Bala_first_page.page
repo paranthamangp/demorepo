@@ -1,0 +1,15 @@
+<apex:page >
+    <head>
+        <title>This is Balas first VF page</title>
+    </head>
+    
+    <body>
+        <h1>
+            Head tag in H1
+        </h1>
+        
+        <h2>Edited using visual studio code</h2>
+        <font color="red">This text is red color from body!</font>
+        
+    </body>
+</apex:page>

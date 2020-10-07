@@ -1,0 +1,11 @@
+<apex:page controller="Pincode_Search">
+    <apex:form >
+    	<apex:pageBlock title="Indian PostalCodes">
+            <apex:inputText value="{!pincode}" />
+            <apex:commandButton value="GetData" action="{!getDetails}" />
+ <apex:pageBlockTable value="{!places}" var="a" rendered="{!  !ISNULL(places)}">
+                <apex:column value="{!a}" />
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

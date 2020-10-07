@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>paranthamanganapathy@gmail.com</contactEmail>
+    <label>Codespace online demo</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDBjCCAe4CCQC24J7l2nkdzzANBgkqhkiG9w0BAQsFADBFMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMB4XDTIwMDgwMzE0NDgwNloXDTIxMDgwMzE0NDgwNlowRTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxL/K6ZBnLwpF84t00Bgnck1c21NC5xkzh8tHLyzqRIHJAccp7vjYQEUIINH0qAAnLkfkzl1no68xv8moINrQN5cCQYeLUB/v+3Lp/RhRqaCrRcjDMxl4rXLYY5Z8igOgrowmvuxgf7GJRFkRA2/kvjiJitYTwOvGD0ABJTsLo+juaqUsGWHILjeJWl7isMm/Qjbjp4EtOWsmAcy1VTM6pa5RPW67a9+ZV8UJgB5N8tNr5bd10hEjCFKsChSHnc5fkBpExSRUw75Yt+iAdDew0+bnMsADC8WFHsBfPm/WtdO/+IgB97/o/Jc4uPosqziBlKjz9vSc+5iA1jGbzyrm0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAaxdj2JWUY/liN0XcpFvP1UONZxRARRQbAKCjcc6JD44VlG2NhAsf9hRWPktWqfcst2v9w/mgVqsvtVYd5WysL7UtkmnHEjuiELfjbiLoRoGigVj/nyYdQTIDiJrq9cku7Fl9AInYRj+kY2Lzx5tDjPuRQ/lxGzSUsNtJfGw3tKBNlR8IQREDzrLRmoHKegPfENMDQcrkDznADG8oOm4m79Tdoh0m3ykF2vi+cexx0p5y5OmC95wRFx7WoL1KY8i05kpp2IOl9tLdZfXVnOdEmfBD4GUxdgmw1CQCaPlQlLZjOlZTQtHCheNpxR17VmdKd/7IfGTl5jwL1TYpaDNkZg==</certificate>
+        <consumerKey>3MVG9YDQS5WtC11q.SD3SxYKH8z_2372eIMZtgnNZpwqILWQ3nL3WFzrIbWS_AWfBZweN0aOyzW1UsHFLlvKP</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

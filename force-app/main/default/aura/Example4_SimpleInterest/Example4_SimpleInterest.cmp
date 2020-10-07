@@ -1,0 +1,22 @@
+<aura:component >
+	<!-- Component for calculating Simple Interest -->
+    <aura:attribute name="amount" type="Decimal" />
+    <aura:attribute name="rate" type="Decimal" />
+    <aura:attribute name="years" type="Decimal" />
+    <aura:attribute name="interest" type="Decimal" />
+    
+    <div class="box">
+        
+    	<lightning:card title="Interest calculator" iconName="standard:account" >
+            <lightning:input label="Amount" type="number" value="{!v.amount}" /> <br/>
+            <lightning:input label="Rate" type="number" value="{!v.rate}" /> <br/>
+            <lightning:input label="Years" type="number" value="{!v.years}" /> <br/>
+            <lightning:input label="Interest" type="number" value="{!v.interest}" /> <br/>
+            <aura:set attribute="footer">
+                <lightning:button label="Calculate" onclick="{!c.calculate}" />
+                <lightning:button label="Reset" onclick="{!c.resetData}" />
+            </aura:set>
+        </lightning:card>
+
+    </div>   
+</aura:component>

@@ -1,0 +1,25 @@
+<!-- Standard controller for retrieving account details of a account -->
+
+<apex:page StandardController="Account" >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations! </h1>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+  <br/>
+  <br/>
+  <br/>
+  
+  <apex:pageblock title="Account Info">
+      <apex:pageblockSection >
+           Name: {!Account.Name} <br/>
+           Phone: {! Account.Phone } <br/> 
+           Industry: {! Account.Industry } <br/> 
+           Revenue: {! Account.AnnualRevenue } <br/> 
+      </apex:pageblockSection>
+  </apex:pageblock>
+  
+  
+ 
+  
+  
+</apex:page>

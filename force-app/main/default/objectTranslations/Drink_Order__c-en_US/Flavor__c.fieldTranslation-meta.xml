@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Flavor --></label>
+    <name>Flavor__c</name>
+    <picklistValues>
+        <masterLabel>Ginger</masterLabel>
+        <translation><!-- Ginger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mixed</masterLabel>
+        <translation><!-- Mixed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orange</masterLabel>
+        <translation><!-- Orange --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strawberry</masterLabel>
+        <translation><!-- Strawberry --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

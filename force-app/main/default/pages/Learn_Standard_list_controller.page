@@ -1,0 +1,12 @@
+<apex:page standardController="contact" recordsetvar="contact">
+  <!-- APEX Standard List controller-->
+  <!-- Interation components -Pageblocktable , Repeat -->
+  <apex:pageblock title="All contact info">
+    
+      <apex:pageblocktable value="{!contact}" var="ct">
+          <apex:column value="{!ct.lastname}"/>
+          <apex:column value="{!ct.email}"/>        
+      
+      </apex:pageblocktable> 
+  </apex:pageBlock> 
+ </apex:page>

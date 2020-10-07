@@ -1,0 +1,20 @@
+<apex:page standardController="Contact" >
+    <!--Contact_ID ="0036F00002zuP46QAE" -->
+    <!--Standard controller without Fieldname --> 
+    <apex:pageblock title="Contact Information - Without field name">
+        <apex:pageblockSection title="Section without fieldname">
+            {!Contact.Name} <br/><br/>
+            {!Contact.Phone}<br/>
+        </apex:pageblockSection>
+    </apex:pageblock>
+    
+    <!--Standard controller with Fieldname --> 
+        <apex:pageblock title="Contact Information - With field name">
+            <apex:pageblockSection title="Section with fieldname">
+                <apex:outputField id="Contact_name" title="Contact name" value=" {!Contact.Name} "/><br/>
+                <apex:outputField title="Contact phone number" value=" {!Contact.phone} "/>
+            </apex:pageblockSection>
+        
+    </apex:pageblock>
+    
+</apex:page>

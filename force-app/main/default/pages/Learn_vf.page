@@ -1,0 +1,13 @@
+<apex:page standardController="Contact" >
+    <!--Standard controller without Fieldname --> 
+
+    
+    <!--Standard controller with Fieldname --> 
+        <apex:pageblock title="Contact Information - With field name">
+        <apex:outputField label="Name:" value=" {!Contact.Name} "/><br/>
+        <apex:outputField value=" {!Contact.phone} "/>
+        
+        
+    </apex:pageblock>
+    
+</apex:page>

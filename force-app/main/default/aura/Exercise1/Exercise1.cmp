@@ -1,0 +1,17 @@
+<aura:component >
+    <aura:attribute name="Amount" type="Decimal" />
+    <aura:attribute name="Rate" type="Decimal" />
+    <aura:attribute name="Years" type="Decimal" />
+    <aura:attribute name="Interest" type="Decimal" />
+    <aura:handler name="init" value="{!this}" action="{!c.CalculateInterest}" />
+    
+    <br/><br/>
+    Amount: "{!v.Amount}"
+    <br/><br/>
+    Rate: "{!v.Rate}"
+    <br/><br/>
+    Years: "{!v.Years}"
+    <br/><br/>
+    Interest: "{!v.Interest}"
+
+</aura:component>

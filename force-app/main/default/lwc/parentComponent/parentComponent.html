@@ -1,0 +1,15 @@
+<template>
+    <ul>
+        <template for:each={parentRecord} for:item="room">
+            <li key={room.roomName} style="padding: 10px">
+                <c-child-component show-room-info>
+
+                    <lightning-tile label={room.roomName} slot="roomInfo">
+                        <p class="slds-truncate" title={room.roomCapacity}>Room Capacity: {room.roomCapacity}</p>
+                    </lightning-tile>
+                    <div>Additional markup will go in unnamed slot</div>
+                </c-child-component>
+            </li>
+        </template>
+    </ul>
+</template>

@@ -1,0 +1,15 @@
+<template>
+    <template if:true={showRoomInfo}>
+    <div class="slds-p-around_medium lgc-bg">
+
+        <slot name="roomInfo"></slot>
+            <slot></slot>
+            <slot></slot> <slot></slot>
+        <!--<lightning-tile label={childRecord.roomName} href="/path/to/somewhere">
+            <p class="slds-truncate" title={childRecord.roomCapacity}>Room Capacity: {childRecord.roomCapacity}</p>
+        </lightning-tile> -->
+        <br/>
+        <br/>
+    </div>
+</template>
+</template>

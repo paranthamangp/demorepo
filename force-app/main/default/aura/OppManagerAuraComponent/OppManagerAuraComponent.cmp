@@ -1,0 +1,11 @@
+<aura:component controller="OppManagerForAura" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="opplist" type="list" />
+    <aura:handler name="init" value="{!this}" action="{!c.invoke}" />
+    <aura:iteration items="{!v.opplist}" var="a">
+        <p>
+            {!a.Name} 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {!a.stagename} 
+        </p>
+    </aura:iteration>  
+</aura:component>

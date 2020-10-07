@@ -1,0 +1,17 @@
+<aura:component >
+    <aura:attribute name="name" type="string" />
+    <aura:attribute name="exp" type="decimal" />
+    <aura:attribute name="salary" type="decimal" />
+ 
+    <div class="box"> 
+        
+        <!-- Code for input labels -->
+        <lightning:input label="Enter Name" name="EmpNameInput" value="{!v.name}" placeholder="Type your first name..."/> <br/>
+        <lightning:input label="Enter exp" name="ExpInput" value="{!v.exp}" placeholder="Type your experience..." /> <br/>
+        <lightning:input label="Salary" name="SalaryInput" value="{!v.salary}" placeholder="Salary will be displayed once submitted ..." /> <br/>
+        
+        <!-- Code for buttons -->
+        <lightning:button label="Submit" onclick="{!c.show}" />
+     
+    </div>
+</aura:component>

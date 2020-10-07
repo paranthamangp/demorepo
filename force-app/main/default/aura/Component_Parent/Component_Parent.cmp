@@ -1,0 +1,9 @@
+<aura:component>
+	<aura:attribute name="empName" type="string" default="Paranthaman"/>
+	<h1> Name: {!v.empName} </h1>
+	<!-- Calling child component within parent -->
+	<c:Component_Child /> 
+    
+    <c:Component_Child description="Text replaced from Parent component using child proerty" />
+    <c:Component_Child description="{!v.empName}" />
+</aura:component>

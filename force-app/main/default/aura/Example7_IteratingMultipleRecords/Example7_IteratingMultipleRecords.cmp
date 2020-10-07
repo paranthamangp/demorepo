@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name="names" type="String[]" default="['Sam','Ram','Kiran','Prasad']" />
+    <aura:iteration items="{!v.names}" var="a" >
+    <p>{!a}</p>
+    </aura:iteration>
+</aura:component>

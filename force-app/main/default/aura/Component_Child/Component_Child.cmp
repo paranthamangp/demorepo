@@ -1,0 +1,5 @@
+<aura:component>
+	<aura:attribute name="description" type="string" default="This is a description from Child .C" />
+	<br/><br/>
+	{!v.description}
+</aura:component>

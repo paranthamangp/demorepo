@@ -1,0 +1,15 @@
+<apex:page controller="simplegetset" standardstylesheets="false">
+<h1> This text is displayed using CSS </h1> <br/><br/>
+<apex:image url="{!$Resource.NewImage}" />
+<apex:stylesheet value="{!$Resource.Bala}"/>
+ 
+
+<br/><br/>
+    <apex:form >
+        <apex:outputlabel value="Enter name"/>
+        <apex:inputtext value="{!userinput}"/> <BR/><br/>
+        <apex:commandButton value="{!userinput}" id="theButton"/>
+
+        <apex:outputText value="{!userinput}"/>
+    </apex:form>
+</apex:page>

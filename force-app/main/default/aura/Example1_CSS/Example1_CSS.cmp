@@ -1,0 +1,7 @@
+<aura:component > 
+    <div>
+        This is line 1 <br/>
+        This is line 2 <br/>
+        This is line 3 <br/>
+    </div>
+</aura:component>

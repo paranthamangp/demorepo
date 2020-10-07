@@ -1,0 +1,11 @@
+<aura:component >
+	<aura:attribute name="empName" type="String" />
+    <aura:attribute name="exp" type="Decimal" />
+    <aura:attribute name="salary" type="String" />
+	<aura:handler name="init" value="{!this}" action="{!c.show}" />
+	
+     	Employee : {!v.empName} <br/><br/>
+    	Experience: {!v.exp} <br/><br/>
+     	Salary: {!v.salary} <br/><br/>
+
+</aura:component>

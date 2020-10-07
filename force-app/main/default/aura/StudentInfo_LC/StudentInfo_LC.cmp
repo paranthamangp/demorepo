@@ -1,0 +1,4 @@
+<aura:component >
+    <c:Student_LC name="Paranthaman" branch="CSE" age="30" />
+    <c:StudentAddress_LC City="Chennai" Place="Siruseri" State="TamilNadu" />
+</aura:component>

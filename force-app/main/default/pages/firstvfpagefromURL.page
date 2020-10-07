@@ -1,0 +1,14 @@
+<apex:page standardController="Account" extensions="ctrlExt" showHeader="false">
+
+<apex:image url="{!$Resource.DummyImage}" />
+
+<br/><br/>
+<apex:pageBlock >
+<apex:outputField value="{! Account.Name }"/> <br/>
+<apex:outputField value="{! Account.Phone }"/>
+</apex:pageBlock>
+
+
+
+<apex:outputText value="{!Greeting}" />
+</apex:page>
